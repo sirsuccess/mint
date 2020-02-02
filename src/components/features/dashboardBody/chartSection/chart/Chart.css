@@ -1,0 +1,13 @@
+.date {
+    /* color: #4F4F4F;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 60px;
+    margin-top: 20px; */
+
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    color: #4f4f4f;
+    font-size: 1.125rem;
+    line-height: 1.50rem;
+}

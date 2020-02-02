@@ -8,17 +8,18 @@
     padding: 1.6em 4em;
     z-index: 8;
     width: 100%;
-    position: fixed;
+    position: sticky;
+
     top: 0;
 }
 
-Link{
+Link {
     text-decoration: none;
 }
 
 @media screen and (max-width: 750px) {
-    .navbar{
-        padding:2em;
+    .navbar {
+        padding: 2em;
         margin-bottom: 5em;
         /* background-color: red; */
     }

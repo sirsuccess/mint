@@ -1,17 +1,13 @@
-
-.App {
-  width: 100%;
-}
-
 .dashboardBody {
   display: flex;
   width: 100%;
+  margin: 0;
 }
 
-.dashboadLeft {
+/* .dashboadLeft {
   width: 20%;
-  
-}
+
+} */
 
 .dashboadRight {
   width: 100%;
@@ -20,7 +16,7 @@
 
 ul {
   list-style: none;
-  
+
 }
 
 .blackCircle {
@@ -28,22 +24,24 @@ ul {
   border-radius: 50%;
 }
 
-input{
+input {
   outline: none;
 }
-.circle{
+
+.circle {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 @media screen and (max-width: 750px) {
   .dashboardBody {
     position: relative;
-    top: 50px;
+    top: -80px;
     /* background-color: black; */
   }
 }
 
-#raphael-paper-2 > g.raphael-group-3-parentgroup > g.raphael-group-8-chart-exo > g.raphael-group-103-timenav-exo > g.raphael-group-127-brush-group{
+#raphael-paper-2>g.raphael-group-3-parentgroup>g.raphael-group-8-chart-exo>g.raphael-group-103-timenav-exo>g.raphael-group-127-brush-group {
   display: none;
 }

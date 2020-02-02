@@ -19,8 +19,9 @@ function App() {
   };
   return (
     <>
-      <Navbar onClick={handleclose} />
-      <Container className="App">
+      <Container>
+        <Navbar onClick={handleclose} />
+
         <ContentArea className="dashboardBody" onClick={handleclose}>
           <Side className={open ? "open" : ""}>
             <Sidebar />
@@ -42,6 +43,7 @@ function App() {
 export default App;
 const Container = styled.div`
   position: relative;
+
   .open {
     transition: left 0.5s;
     left: 0;
@@ -52,7 +54,7 @@ const Container = styled.div`
 const ContentArea = styled.div`
   width: 100%;
   height: 100%;
-  margin-top: 4.5em;
+
   position: relative;
   @media screen and (max-width: 750px) {
     margin-top: 1.5em;

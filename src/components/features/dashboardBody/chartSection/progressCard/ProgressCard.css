@@ -1,0 +1,44 @@
+.ProgressCard {
+
+    /* width: 100%; */
+}
+
+.cardLayout {
+    background-color: #fff;
+    width: 100%;
+    padding: 1em 2em;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #262626;
+    font-weight: 400;
+    border-radius: 2px;
+}
+
+.cardLayout:first-child {
+    margin-bottom: 0.5em;
+}
+
+.cardTitle {
+    font-weight: bolder;
+
+}
+
+.Pending span {
+    color: #FDC203;
+}
+
+.cardTitle,
+.ProgressBar,
+.Pending,
+.Reconciled {
+    margin-bottom: 0.8rem;
+}
+
+.Reconciled span {
+    color: #27AE60;
+}
+
+.Total span {
+    color: #1875F0;
+
+}
